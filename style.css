@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+main{
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+main section{
+    display: flex;
+    min-width:400px;
+    height: 250px;
+    margin: 15px;
+    justify-content: center;
+    align-content: center;
+}
+
+div::-webkit-scrollbar{
+    display: block;
+    background-color: black;
+}
+.fa-facebook{
+    font-size: 6rem;
+    color: blue;
+    text-shadow: 2px 2px 2px green;
+}
+div::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 30px;
+}
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.purple{
+    background-color: purple;
+}
